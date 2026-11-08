@@ -1,0 +1,122 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intermediate HTML Practice Page</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Practice HTML Page</h1>
+        <p>This page contains intermediate-level HTML elements without any CSS or JavaScript.</p>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#about">About Section</a></li>
+                <li><a href="#table">Sample Table</a></li>
+                <li><a href="#form">Practice Form</a></li>
+                <li><a href="#media">Media Section</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About This Page</h2>
+        <p>This page is designed to help you practice HTML structure, semantic tags, forms, tables, and media embedding.</p>
+
+        <article>
+            <h3>Why Practice HTML?</h3>
+            <p>HTML is the foundation of all web pages. Mastering it helps you build strong web development skills.</p>
+        </article>
+    </section>
+
+    <!-- Table Section -->
+    <section id="table">
+        <h2>Sample Table</h2>
+        <table border="1">
+            <caption>Monthly Expenses</caption>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount (GHS)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Food</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>Transport</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>Utilities</td>
+                    <td>450</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form">
+        <h2>Practice Form</h2>
+        <form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea><br><br>
+
+            <label>Preferred Contact Method:</label><br>
+            <input type="radio" id="contact-email" name="contact" value="email">
+            <label for="contact-email">Email</label><br>
+
+            <input type="radio" id="contact-phone" name="contact" value="phone">
+            <label for="contact-phone">Phone</label><br><br>
+
+            <label for="country">Select Your Country:</label><br>
+            <select id="country" name="country">
+                <option value="ghana">Ghana</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="kenya">Kenya</option>
+            </select><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+        <h2>Media Section</h2>
+
+        <h3>Image Example</h3>
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+
+        <h3>Audio Example</h3>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video Example</h3>
+        <video width="320" height="240" controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Practice HTML Page — No CSS, No JavaScript</p>
+    </footer>
+
+</body>
+</html>
